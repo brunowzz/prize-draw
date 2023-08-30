@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="./style.css">
     <title>Sorteio Grátis</title>
 </head>
@@ -12,17 +12,18 @@
 <body>
     <main>
         <figure>
-            <img src="./assets/devsorteio.png" alt="dev sorteio">
+            <img src="./assets/dev-sorteio.png" alt="dev sorteio">
         </figure>
 
-        <form>
+        <section>
             <h1>Sortear um número</h1>
             <div>
-                <input type="number" placeholder="entre" required />
-                <input type="number" placeholder="e" required >
+                <input type="number" class="input-min" placeholder="entre" required />
+                <input type="number" class="input-max" placeholder="e" required>
             </div>
-            <button type="submit">Sortear</button>
-        </form>
+            <p class="result">Resultado:</p>
+            <button type="submit" onclick="generateNumber()">Sortear</button>
+        </section>
     </main>
 
     <script src="./script.js"></script>
