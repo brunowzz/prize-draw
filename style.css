@@ -16,6 +16,10 @@ main {
     background: #000;
 }
 
+img {
+    height: 200px;
+}
+
 section {
     display: flex;
     flex-direction: column;
