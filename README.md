@@ -32,10 +32,10 @@ Antes de iniciar :checkered_flag:, certifique-se de ter o [Git](https://git-scm.
 
 ```
 #  Clone este projeto
-$ git clone https://github.com/brunowzz/nft-preview/
+$ git clone https://github.com/brunowzz/prize-draw/
 
 # Acessar
-$ cd nft-preview
+$ cd prize-draw
 ```
 
 ## 🤝 Colaborador
